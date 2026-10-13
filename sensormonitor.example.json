@@ -1,0 +1,12 @@
+{
+  "rules": [
+    { "match": "thinkpad/temp1", "name": "CPU (EC)" },
+    { "match": "thinkpad/temp10", "hide": true },
+    { "match": "nct*/AUXTIN0", "group": "Motherboard", "name": "VRM" }
+  ],
+  "hosts": {
+    "my-laptop": {
+      "rules": [ { "match": "pch_*/*", "name": "PCH" } ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+meta	host	-	laptop
+meta	userpath	-	/home/user/.config/sensormonitor.json
+temp	acpitz/thermal_zone0/temp1	acpitz temp1	40000
+temp	coretemp/coretemp.0/temp1	coretemp Package id 0	44000
+temp	coretemp/coretemp.0/temp2	coretemp Core 0	44000
+temp	coretemp/coretemp.0/temp3	coretemp Core 1	45000
+temp	coretemp/coretemp.0/temp4	coretemp Core 2	45000
+temp	coretemp/coretemp.0/temp5	coretemp Core 3	40000
+temp	thinkpad/thinkpad_hwmon/temp10	thinkpad temp10	3000
+temp	thinkpad/thinkpad_hwmon/temp11	thinkpad temp11	0
+temp	thinkpad/thinkpad_hwmon/temp12	thinkpad temp12	26000
+temp	thinkpad/thinkpad_hwmon/temp1	thinkpad temp1	40000
+temp	thinkpad/thinkpad_hwmon/temp2	thinkpad temp2	29000
+temp	thinkpad/thinkpad_hwmon/temp3	thinkpad temp3	26000
+temp	thinkpad/thinkpad_hwmon/temp4	thinkpad temp4	35000
+temp	thinkpad/thinkpad_hwmon/temp5	thinkpad temp5	36000
+temp	thinkpad/thinkpad_hwmon/temp6	thinkpad temp6	31000
+temp	thinkpad/thinkpad_hwmon/temp7	thinkpad temp7	0
+temp	thinkpad/thinkpad_hwmon/temp8	thinkpad temp8	0
+temp	thinkpad/thinkpad_hwmon/temp9	thinkpad temp9	26000
+fan	thinkpad/thinkpad_hwmon/fan1	thinkpad fan1	1927
+temp	nvme/nvme0/temp1	nvme Composite	34850
+temp	nvme/nvme0/temp2	nvme Sensor 1	27850
+temp	nvme/nvme0/temp3	nvme Sensor 2	28850
+temp	pch_cannonlake/thermal_zone1/temp1	pch_cannonlake temp1	39000
+temp	iwlwifi_1/thermal_zone11/temp1	iwlwifi_1 temp1	34000

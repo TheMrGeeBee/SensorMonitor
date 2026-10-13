@@ -1,0 +1,44 @@
+meta	host	-	desktop
+meta	ecores	-	36,37,38,39,
+meta	userpath	-	/home/user/.config/sensormonitor.json
+temp	nvme/nvme1/temp1	nvme Composite	35850
+temp	nvme/nvme0/temp1	nvme Composite	42850
+temp	xe/0000:03:00.0/temp2	xe pkg	44000
+temp	xe/0000:03:00.0/temp3	xe vram	46000
+fan	xe/0000:03:00.0/fan1	xe fan1	1184
+fan	xe/0000:03:00.0/fan2	xe fan2	1810
+temp	spd5118/10-0051/temp1	spd5118 temp1	32250
+temp	spd5118/10-0053/temp1	spd5118 temp1	32250
+temp	r8169_0_700:00/r8169-0-700:00/temp1	r8169_0_700:00 temp1	36500
+temp	coretemp/coretemp.0/temp10	coretemp Core 8	32000
+temp	coretemp/coretemp.0/temp14	coretemp Core 12	30000
+temp	coretemp/coretemp.0/temp18	coretemp Core 16	30000
+temp	coretemp/coretemp.0/temp1	coretemp Package id 0	33000
+temp	coretemp/coretemp.0/temp22	coretemp Core 20	29000
+temp	coretemp/coretemp.0/temp26	coretemp Core 24	28000
+temp	coretemp/coretemp.0/temp2	coretemp Core 0	32000
+temp	coretemp/coretemp.0/temp30	coretemp Core 28	30000
+temp	coretemp/coretemp.0/temp38	coretemp Core 36	33000
+temp	coretemp/coretemp.0/temp39	coretemp Core 37	33000
+temp	coretemp/coretemp.0/temp40	coretemp Core 38	33000
+temp	coretemp/coretemp.0/temp41	coretemp Core 39	33000
+temp	coretemp/coretemp.0/temp6	coretemp Core 4	33000
+temp	nct6798/nct6775.672/temp10	nct6798 PCH_CHIP_TEMP	0
+temp	nct6798/nct6775.672/temp11	nct6798 PCH_CPU_TEMP	0
+temp	nct6798/nct6775.672/temp12	nct6798 PCH_MCH_TEMP	0
+temp	nct6798/nct6775.672/temp1	nct6798 SYSTIN	31000
+temp	nct6798/nct6775.672/temp2	nct6798 CPUTIN	11000
+temp	nct6798/nct6775.672/temp3	nct6798 AUXTIN0	19000
+temp	nct6798/nct6775.672/temp4	nct6798 AUXTIN1	23000
+temp	nct6798/nct6775.672/temp5	nct6798 AUXTIN2	37000
+temp	nct6798/nct6775.672/temp6	nct6798 AUXTIN3	0
+temp	nct6798/nct6775.672/temp7	nct6798 PECI Agent 0	34000
+temp	nct6798/nct6775.672/temp8	nct6798 AUXTIN4	31000
+temp	nct6798/nct6775.672/temp9	nct6798 PCH_CHIP_CPU_MAX_TEMP	0
+fan	nct6798/nct6775.672/fan1	nct6798 fan1	0
+fan	nct6798/nct6775.672/fan2	nct6798 fan2	736
+fan	nct6798/nct6775.672/fan3	nct6798 fan3	0
+fan	nct6798/nct6775.672/fan4	nct6798 fan4	772
+fan	nct6798/nct6775.672/fan5	nct6798 fan5	0
+fan	nct6798/nct6775.672/fan6	nct6798 fan6	358
+fan	nct6798/nct6775.672/fan7	nct6798 fan7	799
