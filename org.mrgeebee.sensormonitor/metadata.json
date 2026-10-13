@@ -1,17 +1,21 @@
 {
     "KPackageStructure": "Plasma/Applet",
     "KPlugin": {
-        "Authors": [{
-            "Name": "MrGeeBee",
-            "Email": "mrgeebee@pm.me"
-        }],
+        "Authors": [
+            {
+                "Name": "MrGeeBee",
+                "Email": "mrgeebee@pm.me"
+            }
+        ],
         "Category": "System Information",
         "Description": "Read-only hardware sensor display: temperatures coloured blue (cold) to red (hot) and fan speeds in RPM, with automatic naming of CPU, GPU, storage and board sensors",
         "Icon": "temperature-normal",
         "Id": "org.mrgeebee.sensormonitor",
         "Name": "Sensor Monitor",
         "License": "GPL-3.0+",
-        "Version": "1.0.0"
+        "Version": "1.0.0",
+        "Website": "https://github.com/TheMrGeeBee/SensorMonitor",
+        "BugReportUrl": "https://github.com/TheMrGeeBee/SensorMonitor/issues"
     },
     "X-Plasma-API-Minimum-Version": "6.0"
 }
