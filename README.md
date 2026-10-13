@@ -93,6 +93,13 @@ machine, save the output of `read-sensors.sh` there and add expectations to
 `tests/run.js`. `install.sh` also runs `qmllint` (`/usr/lib/qt6/bin/qmllint`) and aborts
 on errors.
 
+## Releasing
+
+Bump `VERSION` and `Version` in `org.mrgeebee.sensormonitor/metadata.json` together
+(`install.sh` refuses to run if they differ), then build with `./install.sh --zip` and
+upload `dist/org.mrgeebee.sensormonitor.plasmoid` to the KDE Store. Tag the release in git
+(`git tag v1.0.0`).
+
 ## License
 
 GPL-3.0-or-later. See `LICENSE`.

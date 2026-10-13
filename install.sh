@@ -6,6 +6,11 @@ pkg=org.mrgeebee.sensormonitor
 zipfile=dist/$pkg.plasmoid
 build() { mkdir -p dist; rm -f "$zipfile"; (cd "$pkg" && zip -qr "../$zipfile" metadata.json contents); }
 
+# VERSION must match the plasmoid metadata (the KDE Store compares the metadata version)
+want=$(tr -d '[:space:]' < VERSION)
+have=$(sed -n 's/.*"Version": *"\([^"]*\)".*/\1/p' "$pkg/metadata.json")
+[ "$want" = "$have" ] || { echo "VERSION ($want) != metadata.json Version ($have)" >&2; exit 1; }
+
 # Syntax check (i18n/cfg "unqualified access" warnings are normal in Plasma code, so only errors count)
 lint=/usr/lib/qt6/bin/qmllint
 if [ -x "$lint" ] && "$lint" -I /usr/lib/qt6/qml "$pkg"/contents/ui/*.qml 2>&1 | grep -q '^Error'; then
